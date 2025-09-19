@@ -13,8 +13,8 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     { id: "all", label: "All Properties", icon: Building, path: "/" },
     { id: "iphone", label: "IPHONE", icon: Phone, path: "/house" },
     { id: "android", label: "ANDROID", icon: Building, path: "/room" },
-    { id: "about", label: "ABOUT", path: "/about" },
-     { id: "contact", label: "CONTACT", path: "/contact" },
+    { id: "about", label: "ABOUT",  icon: Phone,path: "/about" },
+     { id: "contact", label: "CONTACT", icon: Phone, path: "/contact" },
   
   ];
 
