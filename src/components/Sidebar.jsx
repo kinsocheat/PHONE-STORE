@@ -13,6 +13,8 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     { id: "all", label: "All Properties", icon: Building, path: "/" },
     { id: "iphone", label: "IPHONE", icon: Phone, path: "/house" },
     { id: "android", label: "ANDROID", icon: Building, path: "/room" },
+    { id: "about", label: "ABOUT", icon: Building, path: "/about" },
+    { id: "contact", label: "CONTACT", icon: Building, path: "/contact" },
   ];
 
   // Get active filter based on current route
